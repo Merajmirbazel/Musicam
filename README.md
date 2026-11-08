@@ -1,5 +1,7 @@
 # Musicam (موزیکم)
 
+<p align="center"><img src="docs/banner.png" alt="Musicam: a native music library and player for macOS and iPhone" width="100%"></p>
+
 Native macOS + iOS music library and player. Design: see the architecture document
 (https://claude.ai/artifact/Pia1uKu8GDczt7Xe3XynM9). Sync is direct device-to-device, no iCloud.
 
