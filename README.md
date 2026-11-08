@@ -3,6 +3,28 @@
 Native macOS + iOS music library and player. Design: see the architecture document
 (https://claude.ai/artifact/Pia1uKu8GDczt7Xe3XynM9). Sync is direct device-to-device, no iCloud.
 
+## Screenshots
+
+### macOS
+
+<p>
+  <img src="docs/screenshots/mac-home.webp" alt="Musicam on macOS: Home" width="49%">
+  <img src="docs/screenshots/mac-songs.webp" alt="Musicam on macOS: Songs" width="49%">
+</p>
+<p>
+  <img src="docs/screenshots/mac-repair-center.webp" alt="Musicam on macOS: Repair Center" width="32%">
+  <img src="docs/screenshots/mac-watched-folders.webp" alt="Musicam on macOS: Watched Folders" width="32%">
+  <img src="docs/screenshots/mac-devices.webp" alt="Musicam on macOS: Devices and sync" width="32%">
+</p>
+
+### iPhone
+
+<p>
+  <img src="docs/screenshots/ios-home.jpg" alt="Musicam on iPhone: Home" width="32%">
+  <img src="docs/screenshots/ios-library.jpg" alt="Musicam on iPhone: Library" width="32%">
+  <img src="docs/screenshots/ios-settings.jpg" alt="Musicam on iPhone: Settings" width="32%">
+</p>
+
 ## License
 
 Musicam is released under the [MIT License](LICENSE). Copyright (c) 2026 Meraj Mirbazel.
