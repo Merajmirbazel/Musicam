@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+._*
+
+# Swift Package Manager / Xcode build output
+.build/
+DerivedData/
+build/
+build-ios-dev/
+build-ios-sim/
+build-*/
+Musicam.xcodeproj/-Xcc/
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# Release packages
+dist/
+*.dmg
+*.ipa
+*.dSYM/
+
+# Helper programs (ffmpeg, yt-dlp, merajfy-cli): large binaries, built/downloaded locally.
+# The macOS build continues without them (see scripts/embed_helpers.sh).
+Helpers/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Python's own test certificates/keys (not used by the app; trigger secret scanners)
+Vendor/Python/Python.xcframework/lib/python3.14/test/certdata/
+
+# Secrets / local config (none exist today; protects the future)
+.env
+.env.*
+*.p12
+*.p8
+*.mobileprovision

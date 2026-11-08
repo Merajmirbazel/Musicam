@@ -1,0 +1,36 @@
+{
+  "sourceLanguage": "en",
+  "version": "1.0",
+  "strings": {
+    "Opening Musicam…": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "در حال باز کردن Musicam…"
+          }
+        }
+      }
+    },
+    "There is no link here to add.": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اینجا لینکی برای افزودن نیست."
+          }
+        }
+      }
+    },
+    "Link copied. Open Musicam and choose Add from Link.": {
+      "localizations": {
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لینک کپی شد. Musicam را باز کنید و «افزودن از لینک» را بزنید."
+          }
+        }
+      }
+    }
+  }
+}

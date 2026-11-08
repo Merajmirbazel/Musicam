@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9B228891A4AB915BA8D1F2B /* Features in Frameworks */ = {isa = PBXBuildFile; productRef = D9616E9A862CA78519507F99 /* Features */; };
+		6F8071B88B0316B044FD14B2 /* Features in Frameworks */ = {isa = PBXBuildFile; productRef = D7B052FDC6BA2FD7AD036C73 /* Features */; };
+		48328150132F5E85551F6D86 /* Python.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0511C46CEF04572E23D75F79 /* Python.xcframework */; };
+		F3ADF8509DC33685E98916E2 /* Python.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0511C46CEF04572E23D75F79 /* Python.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5E5FB93968AFA31341EB6100 /* app in Resources */ = {isa = PBXBuildFile; fileRef = 237D0EA41D126CBC178460D1 /* app */; };
+		3B29B7DBAA28BB91BA43EA34 /* app_packages in Resources */ = {isa = PBXBuildFile; fileRef = C1DE08F0BB120A81F5DD082E /* app_packages */; };
+		5C50D1025A4603B4B31D5DC6 /* MusicamShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 943922C6A827D8E448FACAB2 /* MusicamShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		583B1F3F15FFA9DB067941C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72551B32926987E29CF019C9;
+			remoteInfo = MusicamShare-iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		AA836F6D7C47FBE6E64CE881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72551B32926987E29CF019C9 /* MusicamShare-iOS */;
+			targetProxy = 583B1F3F15FFA9DB067941C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39E4F569E252455FE86973A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F3ADF8509DC33685E98916E2 /* Python.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37DFF5B4BF67E9AF2606462A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5C50D1025A4603B4B31D5DC6 /* MusicamShare.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F89453257065AB2BE998B1B /* Musicam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musicam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		562D4D969CF95B16585DC5A5 /* Musicam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musicam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0511C46CEF04572E23D75F79 /* Python.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Vendor/Python/Python.xcframework; sourceTree = "<group>"; };
+		237D0EA41D126CBC178460D1 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Vendor/Python/app; sourceTree = "<group>"; };
+		C1DE08F0BB120A81F5DD082E /* app_packages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Vendor/Python/app_packages; sourceTree = "<group>"; };
+		943922C6A827D8E448FACAB2 /* MusicamShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MusicamShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D59B7B8570CEDC30D7AE0614 /* App-macOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "App-macOS";
+			sourceTree = "<group>";
+		};
+		86E0EA996D2308312310F5C5 /* App-iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "App-iOS";
+			sourceTree = "<group>";
+		};
+		E6EE15C854DA4AA8D6091524 /* App-iOS-Share */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "App-iOS-Share";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C13FC3A5228B5E85B2DB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B228891A4AB915BA8D1F2B /* Features in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932D38D3798E3AB8D795549C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8071B88B0316B044FD14B2 /* Features in Frameworks */,
+				48328150132F5E85551F6D86 /* Python.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2148E99C96EA482AC8D185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD58DE7366495DB4650CFEF = {
+			isa = PBXGroup;
+			children = (
+				D59B7B8570CEDC30D7AE0614 /* App-macOS */,
+				86E0EA996D2308312310F5C5 /* App-iOS */,
+				E6EE15C854DA4AA8D6091524 /* App-iOS-Share */,
+				0511C46CEF04572E23D75F79 /* Python.xcframework */,
+				237D0EA41D126CBC178460D1 /* app */,
+				C1DE08F0BB120A81F5DD082E /* app_packages */,
+				86024CAD1E83101D97359D73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86024CAD1E83101D97359D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F89453257065AB2BE998B1B /* Musicam.app */,
+				562D4D969CF95B16585DC5A5 /* Musicam.app */,
+				943922C6A827D8E448FACAB2 /* MusicamShare.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849A1F81DA22B3EF3BEA847F /* Musicam-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AEEACC758EF0C3727DB12E /* Build configuration list for PBXNativeTarget "Musicam-macOS" */;
+			buildPhases = (
+				EA7D7A63BAF634434D9AA8CE /* Sources */,
+				E1C13FC3A5228B5E85B2DB62 /* Frameworks */,
+				3534E997F6D5F9B6FDDA9C70 /* Resources */,
+				F0CBCB6D62B4A42EF0CB94CD /* Embed Merajfy helpers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D59B7B8570CEDC30D7AE0614 /* App-macOS */,
+			);
+			name = "Musicam-macOS";
+			packageProductDependencies = (
+				D9616E9A862CA78519507F99 /* Features */,
+			);
+			productName = Musicam;
+			productReference = 4F89453257065AB2BE998B1B /* Musicam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9D3CE2F89A33E1D02042DB8 /* Musicam-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B1FE2F39BA4939972DEEECB /* Build configuration list for PBXNativeTarget "Musicam-iOS" */;
+			buildPhases = (
+				C33A5870BBF2553014066A95 /* Sources */,
+				932D38D3798E3AB8D795549C /* Frameworks */,
+				E1CC9DC365104F7E3B110308 /* Resources */,
+				F69A8DC5BEE902FAD42CB908 /* Process Python libraries */,
+				39E4F569E252455FE86973A1 /* Embed Frameworks */,
+				37DFF5B4BF67E9AF2606462A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA836F6D7C47FBE6E64CE881 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				86E0EA996D2308312310F5C5 /* App-iOS */,
+			);
+			name = "Musicam-iOS";
+			packageProductDependencies = (
+				D7B052FDC6BA2FD7AD036C73 /* Features */,
+			);
+			productName = Musicam;
+			productReference = 562D4D969CF95B16585DC5A5 /* Musicam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72551B32926987E29CF019C9 /* MusicamShare-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A53757A2928DA4EC8DE64C3 /* Build configuration list for PBXNativeTarget "MusicamShare-iOS" */;
+			buildPhases = (
+				95471348E175272493888AE2 /* Sources */,
+				4D2148E99C96EA482AC8D185 /* Frameworks */,
+				4EA0750944EF158971F6CA8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E6EE15C854DA4AA8D6091524 /* App-iOS-Share */,
+			);
+			name = MusicamShare-iOS;
+			packageProductDependencies = (
+			);
+			productName = MusicamShare;
+			productReference = 943922C6A827D8E448FACAB2 /* MusicamShare.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+			};
+			buildConfigurationList = 24DF83E70DFC898B71CD8E2E /* Build configuration list for PBXProject "Musicam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fa,
+				Base,
+			);
+			mainGroup = FAD58DE7366495DB4650CFEF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				715E1E3F015A64BA0327CAEF /* XCLocalSwiftPackageReference "MusicamKit" */,
+			);
+			productRefGroup = 86024CAD1E83101D97359D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849A1F81DA22B3EF3BEA847F /* Musicam-macOS */,
+				C9D3CE2F89A33E1D02042DB8 /* Musicam-iOS */,
+				72551B32926987E29CF019C9 /* MusicamShare-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3534E997F6D5F9B6FDDA9C70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CC9DC365104F7E3B110308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E5FB93968AFA31341EB6100 /* app in Resources */,
+				3B29B7DBAA28BB91BA43EA34 /* app_packages in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA0750944EF158971F6CA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0CBCB6D62B4A42EF0CB94CD /* Embed Merajfy helpers */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Merajfy helpers";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\"$SRCROOT/scripts/embed_helpers.sh\"\n";
+		};
+		F69A8DC5BEE902FAD42CB908 /* Process Python libraries */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Process Python libraries";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nPYX=Vendor/Python/Python.xcframework\nsource \"$PROJECT_DIR/$PYX/build/utils.sh\"\ninstall_stdlib \"$PYX\"\nV=$(ls -1 \"$CODESIGNING_FOLDER_PATH/python/lib\" | grep -E \"^python3\\.[0-9]+$\")\nL=\"$CODESIGNING_FOLDER_PATH/python/lib/$V\"\n# not needed to run yt-dlp: the standard library's tests, IDLE, Tk, and the interpreter's own test modules\nrm -rf \"$L/test\" \"$L/idlelib\" \"$L/tkinter\" \"$L/ensurepip\" \"$L/turtledemo\" \"$L/pydoc_data\" \"$L/lib2to3\"\nrm -f \"$L\"/lib-dynload/_test*.so \"$L\"/lib-dynload/_xx*.so \"$L\"/lib-dynload/xx*.so \"$L\"/lib-dynload/_ctypes_test*.so\nprocess_dylibs \"$PYX\" \"python/lib/$V/lib-dynload\"\nprocess_dylibs \"$PYX\" app_packages\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA7D7A63BAF634434D9AA8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33A5870BBF2553014066A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95471348E175272493888AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB8F53631F2FD3AF4C7611AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/macOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Musicam;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2026 Meraj Mirbazel";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merajmirbazel.musicam.debug;
+				PRODUCT_NAME = Musicam;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		3676B490D615673F891C7540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Config/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/macOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Musicam;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2026 Meraj Mirbazel";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merajmirbazel.musicam;
+				PRODUCT_NAME = Musicam;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		842EAB4EB932E156C44B326A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VF66R9227;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/Python.framework/Headers";
+				INFOPLIST_FILE = "Config/iOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Musicam;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2026 Meraj Mirbazel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merajmirbazel.musicam.debug;
+				PRODUCT_NAME = Musicam;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OBJC_BRIDGING_HEADER = "Config/iOS-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF131A33D20EFD4AC490CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VF66R9227;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/Python.framework/Headers";
+				INFOPLIST_FILE = "Config/iOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Musicam;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2026 Meraj Mirbazel";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merajmirbazel.musicam;
+				PRODUCT_NAME = Musicam;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_OBJC_BRIDGING_HEADER = "Config/iOS-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51CC8C7A691577168492BF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VF66R9227;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/iOS-Share-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Musicam;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2026 Meraj Mirbazel";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 0.13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merajmirbazel.musicam.debug.share;
+				PRODUCT_NAME = MusicamShare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70347739AA21E954889517F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VF66R9227;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/iOS-Share-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Musicam;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright 2026 Meraj Mirbazel";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 0.13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.merajmirbazel.musicam.share;
+				PRODUCT_NAME = MusicamShare;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD7E4D21FFDF940543A1256D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		7A3E63A72106614A7A8F59AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75AEEACC758EF0C3727DB12E /* Build configuration list for PBXNativeTarget "Musicam-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8F53631F2FD3AF4C7611AD /* Debug */,
+				3676B490D615673F891C7540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B1FE2F39BA4939972DEEECB /* Build configuration list for PBXNativeTarget "Musicam-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842EAB4EB932E156C44B326A /* Debug */,
+				3EF131A33D20EFD4AC490CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A53757A2928DA4EC8DE64C3 /* Build configuration list for PBXNativeTarget "MusicamShare-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51CC8C7A691577168492BF52 /* Debug */,
+				70347739AA21E954889517F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DF83E70DFC898B71CD8E2E /* Build configuration list for PBXProject "Musicam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7E4D21FFDF940543A1256D /* Debug */,
+				7A3E63A72106614A7A8F59AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		715E1E3F015A64BA0327CAEF /* XCLocalSwiftPackageReference "MusicamKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = MusicamKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D9616E9A862CA78519507F99 /* Features */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Features;
+		};
+		D7B052FDC6BA2FD7AD036C73 /* Features */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Features;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
